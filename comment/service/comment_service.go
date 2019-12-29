@@ -1,8 +1,9 @@
 package service
 
 import (
-	"github.com/betsegawlemma/restaurant-rest/comment"
-	"github.com/betsegawlemma/restaurant-rest/entity"
+	"github.com/sample-restaurant-rest-api/entity"
+	"github.com/sample-restaurant-rest-api/comment"
+	
 )
 
 // CommentService implements menu.CommentService interface

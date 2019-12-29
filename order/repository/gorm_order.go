@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/betsegawlemma/restaurant-rest/entity"
-	"github.com/betsegawlemma/restaurant-rest/order"
+	"github.com/sample-restaurant-rest-api/order"
+	"github.com/sample-restaurant-rest-api/entity"
 	"github.com/jinzhu/gorm"
 )
 

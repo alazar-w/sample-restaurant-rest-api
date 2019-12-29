@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"github.com/betsegawlemma/restaurant-rest/comment"
-	"github.com/betsegawlemma/restaurant-rest/entity"
+	"github.com/sample-restaurant-rest-api/entity"
+	"github.com/sample-restaurant-rest-api/comment"
 	"github.com/jinzhu/gorm"
 )
 
@@ -29,6 +29,7 @@ func (cmntRepo *CommentGormRepo) Comments() ([]entity.Comment, []error) {
 // Comment retrieves a customer comment from the database by its id
 func (cmntRepo *CommentGormRepo) Comment(id uint) (*entity.Comment, []error) {
 	cmnt := entity.Comment{}
+	
 	errs := cmntRepo.conn.First(&cmnt, id).GetErrors()
 	if len(errs) > 0 {
 		return nil, errs

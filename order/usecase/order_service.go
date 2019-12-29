@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/betsegawlemma/restaurant-rest/entity"
-	"github.com/betsegawlemma/restaurant-rest/order"
+	"github.com/sample-restaurant-rest-api/order"
+	"github.com/sample-restaurant-rest-api/entity"
 )
 
 // OrderService implements menu.OrderService interface

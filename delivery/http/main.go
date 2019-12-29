@@ -2,12 +2,13 @@ package main
 
 import (
 	"net/http"
+	"github.com/sample-restaurant-rest-api/comment/repository"
+	"github.com/sample-restaurant-rest-api/comment/service"
+	"github.com/sample-restaurant-rest-api/delivery/http/handler"
+	urepim "github.com/sample-restaurant-rest-api/user/repository"
+	usrvim "github.com/sample-restaurant-rest-api/user/service"
 
-	"github.com/betsegawlemma/restaurant-rest/comment/repository"
-	"github.com/betsegawlemma/restaurant-rest/comment/service"
-	"github.com/betsegawlemma/restaurant-rest/delivery/http/handler"
-	urepim "github.com/betsegawlemma/restaurant-rest/user/repository"
-	usrvim "github.com/betsegawlemma/restaurant-rest/user/service"
+
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	"github.com/julienschmidt/httprouter"

@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/betsegawlemma/restaurant/entity"
-	"github.com/betsegawlemma/restaurant/user"
+	"github.com/sample-restaurant-rest-api/user"
+	"github.com/sample-restaurant-rest-api/entity"
 )
 
 // UserService implements menu.UserService interface

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
-
-	"github.com/betsegawlemma/restaurant-rest/comment"
-	"github.com/betsegawlemma/restaurant-rest/entity"
+	"github.com/sample-restaurant-rest-api/comment"
+	"github.com/sample-restaurant-rest-api/entity"
+	
 	"github.com/julienschmidt/httprouter"
 )
 

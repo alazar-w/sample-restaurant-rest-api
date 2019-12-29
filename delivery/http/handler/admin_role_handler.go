@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/betsegawlemma/restaurant-rest/user"
+	"github.com/sample-restaurant-rest-api/user"
 	"github.com/julienschmidt/httprouter"
 )
 
